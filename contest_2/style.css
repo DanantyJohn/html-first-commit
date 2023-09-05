@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    font-family: "Montserrat", sans-serif
+}
+
+body {
+    background-color: #000000;
+}
+
+.large{
+    margin: 0 0 0 120px;
+    padding: 12px 24px;
+}
+
+p, i, a {
+    color:#fff;
+    text-decoration: none;
+}
+
+#home {
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    margin: 10px 0;
+}
+
+#home p {
+    margin: 15px 0;
+}
+
+#about {
+    margin: 0 15px;
+    padding: 60px 0;
+}
+
+.left_nav_bar {
+    position:fixed;
+    height: 100%;
+    width: 120px;
+    background-color: #222222;
+}
+
+.bar_items {
+    padding: 12px 24px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+.bar_items:hover{
+    background-color: #000;
+    cursor: pointer;;
+    transition: 0.3s linear;
+}
+
+.bar_items i {
+    font-size: 30px;
+}
+
+.bar_items p {
+    margin:12px 0;
+}
+
+.large_footer {
+    padding: 64px 0;
+}
+
+.large .large_footer i{
+    font-size: 30px;
+    color: #757575;
+}
+
+.large .large_footer i:hover {
+    color:#464646;
+    cursor: pointer;
+}
+
+.fa-brands + .fa-brands{
+    margin-left: 5px;
+}
+
+.large .large_footer .footer_content{
+    font-size: 15px;
+    color: #757575;
+    padding: 15px 0;
+}
